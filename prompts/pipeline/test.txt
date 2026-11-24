@@ -1,0 +1,31 @@
+# Post
+{post}
+
+# What the post states
+{stated}
+
+# The conclusion, as most readers put it
+{conclusion}
+
+# Unstated parts that readers supplied
+{groups}
+
+# Task
+Ids starting with g are steps readers filled in to get from what the post
+states to the conclusion. Ids starting with t are things readers say the post
+takes for granted. For each one, answer three questions about its part in the
+post's reasoning. Do not judge whether it is true.
+
+- needed: for a step, "needed" if the reasoning leans on it, so that without
+  it the stated reasons would no longer give the conclusion; "not_needed" if
+  the reasoning goes through just as well without it. For something taken for
+  granted, "needed" if the post leans on it, so that a reader who rejected it
+  would no longer find the stated reasons, or the step from them to the
+  conclusion, convincing; "not_needed" if the post would work as well on a
+  reader who rejected it.
+- carries: suppose the post's stated reasons were taken away. If this premise
+  would by itself already amount to the conclusion, answer
+  "restates_conclusion". If it says something beyond the conclusion, answer
+  "has_content".
+- trivial: true if almost nobody would dispute it and it adds nothing worth
+  showing to a reader.

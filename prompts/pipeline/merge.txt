@@ -1,0 +1,61 @@
+# Post
+{post}
+{focus}
+# What the post states
+{stated}
+
+# What each reader made of it
+{readings}
+
+# Task
+Several readers each laid out this post's reasoning. Each kept four things
+apart: steps the post relies on to reach its point, what the post takes for
+granted, where the post is heading beyond its point, and the reader's own
+objections. Sort what they wrote, keeping those four apart as the readers did.
+Do not judge who is right.
+
+Group by what is claimed, not by wording. Readers phrase the same claim
+differently, hedge it more or less ("can help", "would", "is likely to"), and
+speak from their own point of view; none of that makes it a different claim.
+Two items belong in one group if someone who accepted one would be accepting
+the other. Keep two items apart only when they differ in substance, so that
+one could hold while the other fails in a way that matters to the argument.
+
+1. conclusions: group the readers' statements of the post's main point that
+   say the same thing. For each group give one sentence that states the point
+   itself, without the reasons for it (text), the wider claim it is an
+   instance of (general_claim), and the readers who hold it. Ids are c1, c2, ...
+2. premises: group the added steps (ids such as agrees.2) that make the same
+   claim, across readers. Ids are g1, g2, ... For each group:
+   - text: one sentence that states it plainly.
+   - general_claim: see below.
+   - kind:
+     bridge: it links what the post states to the point.
+     presupposition: something a stated reason takes for granted.
+     value: a judgement about what is good, bad, or ought to be done.
+     background: a factual claim about the world that the reasoning leans on.
+     other: none of these.
+   - members: the ids of the added steps in this group.
+   - narrower_than: ids of groups that this one is a clearly narrower
+     version of, where the difference matters to the argument.
+   - conflicts_with: ids of groups that cannot both be what the post assumes.
+3. granted: group the "takes for granted" items (ids such as agrees.t1) that
+   say the same thing. Give text, general_claim and members. Ids are
+   t1, t2, ...
+4. further: group the "heading to" items (ids such as agrees.f1) that say the
+   same thing. Give text, general_claim and members. Ids are f1, f2, ...
+5. objections: group the objections (ids such as disagrees.o1) that say the
+   same thing. Give text, general_claim and members. Ids are o1, o2, ...
+6. restates: ids of added steps or "takes for granted" items that only repeat
+   something the post itself states, or only repeat that reader's own
+   statement of the main point. Leave these out of the groups.
+
+general_claim, wherever it is asked for: the wider claim the item is an
+instance of, stated without reference to this post or its author, short
+enough to recur in other posts on the same topic. One claim only: do not join
+two claims with "and", "so" or "because".
+
+Every added step id must appear exactly once: in one premise group, or in
+restates. Every "takes for granted" id must appear exactly once: in one
+granted group, or in restates. Every "heading to" id must appear in exactly
+one further group, and every objection id in exactly one objection group.

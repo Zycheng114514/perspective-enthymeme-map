@@ -1,0 +1,4 @@
+# What the code needs besides Python 3 and a way to reach a model (see the README).
+# The lower bounds are the versions in use in November 2026, with Python 3.12.
+pydantic>=2.13        # the shape every answer of the model has to have
+anthropic>=1.3        # turns those shapes into the JSON schema each call is held to; also the two API routes of pipeline.py

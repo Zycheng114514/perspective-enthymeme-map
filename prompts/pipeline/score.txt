@@ -1,0 +1,18 @@
+# Post
+{post}
+
+# Unstated parts that readers supplied
+{items}
+
+# Unstated parts written by human annotators
+{human}
+
+# Task
+For each human annotation, find the reader-supplied item that expresses the
+same unstated premise or conclusion, if there is one. Judge by meaning, not
+wording.
+
+- best_item_id: the id of the closest item, or empty if none is close.
+- relation: same (same claim), narrower (the item is more limited than the
+  annotation), broader (the item is more sweeping), opposite (one denies the
+  other), or different.

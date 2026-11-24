@@ -1,0 +1,20 @@
+# Post
+{post}
+{focus}
+# Task
+Lay out the post's reasoning with as little added as possible.
+
+- point: the main point the post argues for, in one sentence. Give the claim
+  only, not the reasons for it. If the post does not state it, write the
+  point it most directly leads to.
+  point_in_post: true if the post says this in so many words, false if not.
+- steps: the chain from what the post says to that point, in order.
+  For each step:
+  - text: one plain sentence.
+  - in_post: true if the post says this in so many words, false if you are
+    filling it in.
+  - mine: set this to "unsure" for every step.
+  Add a step the post does not state only if the reasoning cannot do without
+  it, and add the fewest you can. Write each added step as a belief with real
+  content, the kind of thing a person could agree or disagree with, not as a
+  restatement of "if the reasons hold, the conclusion holds".

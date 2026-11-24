@@ -1,0 +1,6 @@
+Below are claims that people make in posts about {topic}.
+
+{claims}
+
+For each one, say whether you yourself believe it: yes, no, or unsure.
+Answer for every id.

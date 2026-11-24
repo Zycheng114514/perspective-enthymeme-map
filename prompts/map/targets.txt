@@ -1,0 +1,17 @@
+# Post
+{post}
+{focus}
+# The argument, part by part
+{parts}
+
+# What readers said against it
+{objections}
+
+# Task
+For each objection, say which part of the argument it goes against.
+- target: the id of the one part it most directly disputes or weakens. An
+  objection that accepts the reasons but denies that they lead to the
+  conclusion goes against the unstated premise that links them, if one is
+  listed, and against the conclusion otherwise. Answer "none" if the
+  objection goes against no part of this argument.
+Answer for every objection id.

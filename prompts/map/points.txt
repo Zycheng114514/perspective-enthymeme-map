@@ -1,0 +1,27 @@
+# What posts about {topic} state and rely on
+{claims}
+
+# Task
+The lines above come from social media posts about {topic}, grouped by post.
+Each line is something the post states, or something it leaves unsaid and
+relies on. Posts seldom repeat each other word for word. One names an agency
+where another names a company; one cites an event where another cites a
+number. Set such specifics aside and find the points the posts share.
+
+List every general point that two or more posts make or rely on. Under each,
+list the narrower versions of it that two or more posts share, if there are
+any.
+
+- A general point is one short, plain sentence that makes no reference to any
+  particular post. Make it wide enough to cover the posts that share it, and
+  no wider.
+- A narrower version says something more specific than its general point: a
+  particular kind of case, cause or consequence. Give none when the posts
+  that share the point have nothing more specific in common.
+- One assertion per sentence. Do not join two assertions with "and", "so",
+  "because" or "which shows". If posts assert A and also draw B from it, list
+  A and B as two points.
+- Keep every point about {topic}. A sentence so wide that it no longer says
+  anything about {topic} is too wide.
+- A point and its denial are different points.
+- Leave out anything only one post says.

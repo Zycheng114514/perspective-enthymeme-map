@@ -1,0 +1,29 @@
+# Who or what posts about {topic} are about
+Each line is what one post's main point is about, in the post's own terms,
+followed in brackets by that main point.
+{items}
+
+# Task
+Bring together the lines that are about the same target.
+- Keep the groups broad. A leader, the administration and agencies while
+  that leader is in charge, and the decisions they take are one target. The
+  officials, experts or bodies that they replaced or oppose are another. A
+  requirement, product or programme together with its particular cases is
+  one target.
+- Keep a measure apart from what is done against it. A requirement is one
+  target; the laws, orders and decisions that lift it, exempt people from
+  it or make up for what it did to them are another target.
+- Do not make a separate group for each decision, document or example; aim
+  for groups that several posts share. A line that fits no shared group
+  stays in a group of its own.
+- Group each line by the words before the brackets: that is what the post
+  is about. The main point in brackets is there only to show which people
+  or bodies those words mean, because the same name can mean different
+  people in different posts ("the CDC" or "health officials" under one
+  leadership are not the same target as under another). Do not move a line
+  to another target because its main point also mentions that target.
+- about: a few words that name the target, clear enough to tell it from the
+  other groups.
+- ids: the ids of the lines in the group.
+Do not sort by whether a post approves or disapproves. Put every id in
+exactly one group.

@@ -1,0 +1,8 @@
+# The posts and the outputs of the runs are not part of this repository.
+data/
+runs/
+
+# Python caches, macOS
+__pycache__/
+*.pyc
+.DS_Store

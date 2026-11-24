@@ -1,0 +1,19 @@
+# Points made in posts about {topic}
+{nodes}
+
+# Statements to place
+{statements}
+
+# Task
+For each statement, find the point on the list that it makes.
+- node: the id of that point, or "none" if the statement makes none of them.
+  Where narrower versions are listed under a point, pick a narrower version
+  if the statement makes that narrower point, and the general point otherwise.
+- fit: "same" if the statement is that point in other words; "instance" if
+  it is a particular case, an example or a narrower form of that point (the
+  point speaks of a kind of thing, the statement of one such thing); "none"
+  if it makes no point on the list.
+
+A statement about the same subject that makes a different point is "none".
+So is a statement that denies the point. If a statement makes two assertions,
+place it by the one it mainly makes. Answer for every statement id.

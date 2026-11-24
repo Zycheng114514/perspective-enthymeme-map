@@ -1,0 +1,13 @@
+# Targets that posts about {topic} are about
+{groups}
+
+# Posts to place
+Each line is what one post's main point is about, followed in brackets by
+that main point.
+{items}
+
+# Task
+For each line, give the id of the target on the list that it is about, or
+"none" if it is about none of them. The same name can mean different people
+in different posts; use the main point in brackets to tell. Answer for
+every id.

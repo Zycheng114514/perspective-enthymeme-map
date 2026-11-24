@@ -1,0 +1,45 @@
+# Post
+{post}
+
+# Task
+Record what this post states, in its own words. Do not fill anything in.
+
+1. status
+   - argument: the post gives at least one reason for a conclusion, or sets
+     out facts or questions in a way that clearly points the reader toward a
+     conclusion.
+   - not_argument: an announcement, a greeting, a bare opinion with no
+     reason, or a link with no comment.
+   Judge by what is shown. A reply or a quote-post can be an argument even
+   when the thing it answers is not shown.
+   why: one short sentence giving the reason for the status.
+   If the status is "not_argument", leave everything below empty.
+2. context_missing: true if the post replies to or quotes something that is
+   not shown and a reader would need it to be sure what the post means.
+   Otherwise false.
+3. arguments: the separate arguments the post makes. Most posts make one.
+   List another only when the post argues for a different conclusion with
+   reasons of its own; several reasons for one conclusion are one argument.
+   Put the post's main argument first. Ids are A1, A2, ... For each:
+   - reasons: each thing the post offers as a reason for this conclusion.
+     Ids are r1, r2, ... within the argument.
+     - span: the exact words, copied from the post.
+     - says: what those words assert, as one plain sentence that can be
+       understood without the post. Write it in the author's voice, without
+       commentary on how the post uses it.
+     - form: "rhetorical_question" if the words are a question that plainly
+       implies an answer (write that answer in says); "sarcasm" if they mean
+       the opposite of what they literally say (write what is meant);
+       otherwise "plain".
+     - general_claim: the wider claim this is an instance of, stated without
+       reference to this post or its author, short enough to recur in other
+       posts on the same topic. One claim only: do not join two claims with
+       "and", "so" or "because".
+   - conclusion_span: the exact words that state this argument's conclusion,
+     if the post states it. Otherwise empty.
+   - conclusion_says: what those words assert, as one plain sentence. Leave
+     it empty if the post does not write the conclusion. Do not supply one.
+   - conclusion_claim: the wider claim that stated conclusion is an instance
+     of, stated without reference to this post or its author. One claim
+     only. Empty if the post does not state the conclusion.
+4. topic: vaccine, immigration, or other.

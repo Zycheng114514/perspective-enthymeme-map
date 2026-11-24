@@ -1,0 +1,20 @@
+# Claims collected from posts about {topic}
+{claims}
+
+# Task
+The lines above are short claims collected from social media posts about
+{topic}, grouped by post. {what} Different posts often get the same claim in
+different words.
+
+Draw up the list of distinct claims that occur in two or more posts. For each,
+write one short, plain sentence that states it without reference to any
+particular post.
+
+- One assertion per claim. Do not join two assertions with "and", "so",
+  "because" or "which shows". If posts assert A and also draw B from it, list
+  A and B as two claims.
+- Two lines are the same claim only if a careful reader would treat them as
+  the same claim.
+- A claim and its denial are different claims.
+- A narrow claim and a much wider one are different claims.
+- Leave out claims that occur in only one post.

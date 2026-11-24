@@ -1,0 +1,48 @@
+You are scrolling and see this post:
+
+{post}
+{focus}
+First, your quick reaction, the way you would have it while scrolling.
+- says: what the post is saying, in a sentence.
+- getting_at: what it is getting at, or wants people to think or do, in a
+  sentence.
+- agree: whether you go along with it: yes, no, or unsure.
+- gut: your reaction in a sentence or two, in your own words.
+
+Then take a minute over it, and keep four things apart: how the post gets to
+its point, what it takes for granted, where it is heading, and what you would
+say back.
+- point: the main point the post itself is making, the claim its reasons are
+  offered for, in one sentence as you read it. Give the claim only, not the
+  reasons for it.
+  point_in_post: true if the post says this in so many words, false if it
+  leaves the reader to draw it.
+- steps: how the post gets to that point, as if explaining it to a friend:
+  the chain from what it says to the point, in order. Include every step you
+  think the reasoning needs, whether or not the post spells it out, and
+  whether or not you agree with it. For each step:
+  - text: one plain sentence.
+  - in_post: true if the post says this in so many words, false if you are
+    filling it in.
+  - mine: whether you yourself believe it: yes, no, or unsure.
+  Fill in as many or as few steps as the reasoning really needs. If the post
+  already says everything it needs, list only what it says.
+- takes_for_granted: the picture of the world the post starts from and does
+  not argue for. What does it assume, in general, about the people,
+  institutions or things it talks about (what they are like, what can be
+  expected of them), or about what matters? These are general beliefs a
+  reader would already need to hold for the post to ring true. They are not
+  steps in this one argument, and not things the post says outright. One
+  plain sentence each, with mine (whether you yourself believe it). List only
+  what the post really leans on, and leave the list empty if it starts from
+  nothing of the kind.
+- leads_to: where the post is heading beyond its point: what it wants readers
+  to go on to think or do, if anything. One plain sentence each, with mine
+  (whether you yourself believe it). Leave the list empty if the post stops
+  at its point.
+- pushback: true if you would argue with this post, false if you would let it
+  stand. Someone who goes along with a post usually lets it stand.
+- objections: only if pushback is true: what you yourself would say against
+  the post. These are your points, not things the post relies on. One plain
+  sentence each. If pushback is false, leave the list empty.
+- verdict: does the reasoning work for you: yes, no, or partly.

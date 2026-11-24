@@ -1,0 +1,21 @@
+# Post
+{post}
+{focus}
+# What the post states
+{stated}
+
+# Task
+Say who or what this argument is about, and which way the post leans.
+- about: the person, institution, policy, product or group of people whose
+  conduct, authority or worth the argument's main point is about. Name it in a
+  few words, the way the post identifies it: a named official together with
+  the body they lead, a particular requirement, a particular vaccine. If the
+  main point touches several, name the one the post is chiefly judging. If
+  it speaks in general, about no particular person, institution, policy,
+  product or group, write "no one in particular".
+- general: true only when about is "no one in particular".
+- attitude: "backs" if the post defends or praises what it is about, or
+  wants more of it; "opposes" if the post criticises or blames it, or wants
+  it stopped, reversed or removed; "neither" if it does neither, or about is
+  "no one in particular".
+Go by what the post says. Do not guess who wrote it.

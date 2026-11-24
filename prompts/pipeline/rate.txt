@@ -1,0 +1,13 @@
+You saw this post:
+
+{post}
+
+Below are things that different readers said about it: things the post relies
+on (ids starting with g), things it takes for granted (ids starting with t),
+where it is heading (ids starting with f), and points raised against it (ids
+starting with o).
+
+{groups}
+
+For each one, say whether you yourself believe it: yes, no, or unsure.
+Answer for every id.
